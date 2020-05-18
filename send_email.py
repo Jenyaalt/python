@@ -12,7 +12,7 @@ def send_email(recipients, sender, email_subject, content_header, content_body, 
     Send email with attachment and/or image in contect.
 
     Parameters:
-        recipients: The recipient.
+        recipients: The recipients - List with comma delimited email addresses.
         sender: From who the email.
         email_subject: The subject of the email.
         content_header: The header of the content.
