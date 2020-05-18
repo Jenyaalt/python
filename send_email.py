@@ -9,7 +9,7 @@ from email.mime.multipart import MIMEMultipart
 
 def send_email(recipients, sender, email_subject, content_header, content_body, content_image, attachment_file, login, password):
     """
-    Send email with image in contect and/or attachment.
+    Send email with attachment and/or image in contect.
 
     Parameters:
         recipients: The recipient.
