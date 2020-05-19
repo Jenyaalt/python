@@ -1,6 +1,6 @@
 # Email Sender
-Send email using simple python script.
-Can include attachment file and/or image in the body content.
+Send email with python script.
+Can include attachment file and/or image file in the body content.
 
 ## Usage example
 ```
@@ -37,4 +37,5 @@ send_email(recipients, email_from, email_subject, header, content, content_image
 ## Meta
 
 Evgeni Altshul - jenyaalt@gmail.com
+
 https://github.com/Jenyaalt/python
